@@ -1,0 +1,10 @@
+---
+description: Ayush defaults for Agent sessions
+alwaysApply: true
+---
+
+# Defaults
+
+- Plan before edits that touch more than ~3 files; wait for my ok.
+- After each change, run the narrowest test, then verify before claiming done (PASS / FAIL / NOT RUN).
+- Never invent secrets or commit `.env`. Prefer `AGENTS.md` in the open repo when it exists.
